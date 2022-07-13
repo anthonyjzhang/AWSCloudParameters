@@ -14,13 +14,8 @@ import software.amazon.awssdk.services.ssm.model.SsmException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-<<<<<<< HEAD
-=======
-
->>>>>>> 781ec6f1e8c0a2b07ddd04a49ad6445b5ee56c27
 @Service
 public class ListApiDelegateImpl implements ListApiDelegate {
-
     @Override
     public ResponseEntity<List<String>> listParameters() {
 
