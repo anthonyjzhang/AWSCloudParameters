@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a87d9ab9-c170-4d7f-bb88-0c32eb14c550" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ParameterApiDelegateImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestGetParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestListKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestListParameters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ListApiDelegateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ListApiDelegateImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
