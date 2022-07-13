@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="a87d9ab9-c170-4d7f-bb88-0c32eb14c550" name="Changes" comment="" />
-=======
-    <list default="true" id="a87d9ab9-c170-4d7f-bb88-0c32eb14c550" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ParameterApiDelegateImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestGetParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestListKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestListParameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ListApiDelegateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ListApiDelegateImpl.java" afterDir="false" />
-    </list>
->>>>>>> 781ec6f1e8c0a2b07ddd04a49ad6445b5ee56c27
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +36,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -60,19 +47,6 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
 }</component>
-=======
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
-  }
-}]]></component>
->>>>>>> 781ec6f1e8c0a2b07ddd04a49ad6445b5ee56c27
   <component name="RunManager" selected="Application.com.cellsignal.cloudparameters.Swagger2SpringBoot">
     <configuration name="TestGetParameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cellsignal.cloudparameters.test.TestGetParameter" />
