@@ -12,6 +12,7 @@ import software.amazon.awssdk.services.ssm.model.SsmException;
 
 @Service
 public class ParameterApiDelegateImpl implements ParameterApiDelegate {
+  
   @Override
   public ResponseEntity<InlineResponse200> getParameter(String key) {
 
