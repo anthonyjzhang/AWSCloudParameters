@@ -1,6 +1,5 @@
 package com.cellsignal.cloudparameters.api;
 
-import com.cellsignal.cloudparameters.configuration.model.InlineResponse200;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -26,7 +25,7 @@ import java.util.Optional;
  * A delegate to be called by the {@link ParameterApiController}}.
  * Implement this interface with a {@link org.springframework.stereotype.Service} annotated class.
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2022-07-12T21:50:12.372355-04:00[America/New_York]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2022-07-19T10:35:13.425641-04:00[America/New_York]")
 public interface ParameterApiDelegate {
 
     Logger log = LoggerFactory.getLogger(ParameterApi.class);
@@ -46,11 +45,11 @@ public interface ParameterApiDelegate {
     /**
      * @see ParameterApi#getParameter
      */
-    default ResponseEntity<InlineResponse200> getParameter( String  key) {
+    default ResponseEntity<String> getParameter( String  key) {
         if(getObjectMapper().isPresent() && getAcceptHeader().isPresent()) {
             if (getAcceptHeader().get().contains("application/json")) {
                 try {
-                    return new ResponseEntity<>(getObjectMapper().get().readValue("\"\"", InlineResponse200.class), HttpStatus.NOT_IMPLEMENTED);
+                    return new ResponseEntity<>(getObjectMapper().get().readValue("\"My Parameter Value\"", String.class), HttpStatus.NOT_IMPLEMENTED);
                 } catch (IOException e) {
                     log.error("Couldn't serialize response for content type application/json", e);
                     return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);

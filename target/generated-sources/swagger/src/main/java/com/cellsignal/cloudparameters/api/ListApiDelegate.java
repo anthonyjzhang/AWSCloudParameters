@@ -25,7 +25,7 @@ import java.util.Optional;
  * A delegate to be called by the {@link ListApiController}}.
  * Implement this interface with a {@link org.springframework.stereotype.Service} annotated class.
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2022-07-12T21:50:12.372355-04:00[America/New_York]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2022-07-19T10:35:13.425641-04:00[America/New_York]")
 public interface ListApiDelegate {
 
     Logger log = LoggerFactory.getLogger(ListApi.class);

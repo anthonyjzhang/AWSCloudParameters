@@ -4,6 +4,7 @@ import com.cellsignal.cloudparameters.api.ListApiDelegate;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import software.amazon.awssdk.auth.credentials.ProfileCredentialsProvider;
 import software.amazon.awssdk.services.ssm.model.*;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.ssm.SsmClient;
@@ -23,6 +24,7 @@ public class ListApiDelegateImpl implements ListApiDelegate {
 
         Region awsRegion = Region.US_EAST_1;
         SsmClient ssmClient = SsmClient.builder()
+                .credentialsProvider(ProfileCredentialsProvider.create("default"))
                 .region(awsRegion)
                 .build();
         List<String> ret = new ArrayList<>();
@@ -37,12 +39,13 @@ public class ListApiDelegateImpl implements ListApiDelegate {
 
             while (parameterIterator.hasNext()) {
                 ParameterMetadata parameterMetadata = parameterIterator.next();
-                //System.out.println(parameterMetadata.name());
+                System.out.println(parameterMetadata.name());
                 //System.out.println(parameterMetadata.description());
                 ret.add(parameterMetadata.name());
             }
         }
         catch (SsmException e) {
+            System.out.println("500 error");
             log.error("Couldn't serialize response for content type application/json", e);
             return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
         }
@@ -55,15 +58,15 @@ public class ListApiDelegateImpl implements ListApiDelegate {
 
         Region awsRegion = Region.US_EAST_1;
         SsmClient ssmClient = SsmClient.builder()
+                .credentialsProvider(ProfileCredentialsProvider.create("default"))
                 .region(awsRegion)
                 .build();
-        prefix = "";
         List<String> ret = new ArrayList<>();
-
+        String convert = prefix.replace("%2F", "/");
         try {
             GetParametersByPathRequest getParametersRequest = GetParametersByPathRequest
                     .builder()
-                    .path(prefix)
+                    .path(convert)
                     .recursive(true)
                     .build();
 
@@ -73,17 +76,28 @@ public class ListApiDelegateImpl implements ListApiDelegate {
 
             while (parameterIterator.hasNext()) {
                 Parameter parameter = parameterIterator.next();
-                //System.out.println(parameter);
+                System.out.println(parameter.name());
                 //System.out.println(parametersList.description());
                 ret.add(parameter.name());
             }
-        }
-        catch (SsmException e) {
-            log.error("Couldn't serialize response for content type application/json", e);
-            return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
 
         }
+        catch (SsmException e) {
+            if (ret.size()==0){
+                System.out.println("400 error");
+                return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            }
+            System.out.println("500 error");
+            log.error("Couldn't serialize response for content type application/json", e);
+            return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+
+        if (ret.size()==0){
+            System.out.println("400 error");
+            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+        }
         System.out.println(ret);
-        return  ResponseEntity.ok(ret);
+        return ResponseEntity.ok(ret);
+
     }
 }

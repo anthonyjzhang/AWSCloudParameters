@@ -1,6 +1,5 @@
 package com.cellsignal.cloudparameters.api;
 
-import com.cellsignal.cloudparameters.configuration.model.InlineResponse200;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;
@@ -29,7 +28,7 @@ import javax.validation.Valid;
 import java.util.List;
 import java.util.Map;
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2022-07-12T21:50:12.372355-04:00[America/New_York]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2022-07-19T10:35:13.425641-04:00[America/New_York]")
 @RestController
 public class ParameterApiController implements ParameterApi {
 
@@ -44,7 +43,7 @@ public class ParameterApiController implements ParameterApi {
     public ParameterApiDelegate getDelegate() {
         return delegate;
     }
-    public ResponseEntity<InlineResponse200> getParameter(@NotNull @Parameter(in = ParameterIn.QUERY, description = "parameter key being queried" ,required=true,schema=@Schema()) @Valid @RequestParam(value = "key", required = true) String key) {
+    public ResponseEntity<String> getParameter(@NotNull @Parameter(in = ParameterIn.QUERY, description = "parameter key being queried" ,required=true,schema=@Schema()) @Valid @RequestParam(value = "key", required = true) String key) {
         return delegate.getParameter(key);
     }
 

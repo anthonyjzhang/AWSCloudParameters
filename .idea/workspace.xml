@@ -1,24 +1,55 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="a87d9ab9-c170-4d7f-bb88-0c32eb14c550" name="Changes" comment="" />
-=======
-    <list default="true" id="a87d9ab9-c170-4d7f-bb88-0c32eb14c550" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ParameterApiDelegateImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestGetParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestListKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestListParameters.java" afterDir="false" />
+    <list default="true" id="4f8d66df-28ce-42f5-af98-4bc87e8b0b51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cellsignal/cloudparameters/TestDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.workspace.xml.swp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace_BACKUP_7432.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace_BASE_7432.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cellsignal/cloudparameters/ContextTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace_LOCAL_7432.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace_REMOTE_7432.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ListApiDelegateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ListApiDelegateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ParameterApiDelegateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ParameterApiDelegateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestGetParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestGetParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestListKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestListKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestListParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestListParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/api/ParameterApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/api/ParameterApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/api/ParameterApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/api/ParameterApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/api/ParameterApiDelegate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/api/ParameterApiDelegate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/configuration/model/AnyOfinlineResponse200.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/configuration/model/InlineResponse200.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/delegate/ListApiDelegateImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/delegate/ListApiDelegateImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/delegate/ParameterApiDelegateImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/delegate/ParameterApiDelegateImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/test/TestGetParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/test/TestGetParameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/test/TestListKeys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/test/TestListKeys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/test/TestListParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cellsignal/cloudparameters/test/TestListParameters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cloud-parameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cloud-parameters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cloudparameters-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/cloudparameters-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cloudparameters-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/cloudparameters-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ApiException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ApiOriginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ApiOriginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ApiResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ApiResponseMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ListApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ListApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ListApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ListApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ListApiDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ListApiDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ParameterApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ParameterApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ParameterApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ParameterApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ParameterApiDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/api/ParameterApiDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/configuration/SwaggerDocumentationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/configuration/SwaggerDocumentationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/configuration/SwaggerUiConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/configuration/SwaggerUiConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/configuration/model/AnyOfinlineResponse200.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/swagger/src/main/java/com/cellsignal/cloudparameters/configuration/model/InlineResponse200.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
->>>>>>> 781ec6f1e8c0a2b07ddd04a49ad6445b5ee56c27
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,53 +62,54 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="MavenRunner">
+    <option name="environmentProperties">
+      <map>
+        <entry key="AWS_PROFILE" value="default" />
+      </map>
+    </option>
     <option name="mavenProperties">
       <map>
+        <entry key="AWS_PROFILE" value="default" />
         <entry key="swagger.api.key" value="710ab81d-7efe-467b-92fd-02b3f61b56f5" />
       </map>
     </option>
   </component>
-  <component name="ProjectId" id="2BrukBODNTfM17Ijr8WZ0qYxPGd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-<<<<<<< HEAD
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
-  }
-}</component>
-=======
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
   }
 }]]></component>
->>>>>>> 781ec6f1e8c0a2b07ddd04a49ad6445b5ee56c27
-  <component name="RunManager" selected="Application.com.cellsignal.cloudparameters.Swagger2SpringBoot">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn --builder" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Run App">
+    <configuration name="Run App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.cellsignal.cloudparameters.Swagger2SpringBoot" />
+      <module name="cloudParametersProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestGetParameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cellsignal.cloudparameters.test.TestGetParameter" />
+      <module name="cloudParametersProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cellsignal.cloudparameters.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestListKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cellsignal.cloudparameters.test.TestListKeys" />
       <module name="cloudParametersProject" />
       <extension name="coverage">
         <pattern>
@@ -102,393 +134,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.cellsignal.cloudparameters.Swagger2SpringBoot" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="TestDelegate.hello" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="cloudParametersProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cellsignal.cloudparameters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cellsignal.cloudparameters" />
+      <option name="MAIN_CLASS_NAME" value="com.cellsignal.cloudparameters.TestDelegate" />
+      <option name="METHOD_NAME" value="hello" />
+      <option name="TEST_OBJECT" value="method" />
       <envs>
         <env name="AWS_PROFILE" value="default" />
       </envs>
-      <option name="MAIN_CLASS_NAME" value="com.cellsignal.cloudparameters.Swagger2SpringBoot" />
-      <module name="cloudParametersProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cellsignal.cloudparameters.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.cellsignal.cloudparameters.test.TestListKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cellsignal.cloudparameters.test.TestListKeys" />
-      <module name="cloudParametersProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cellsignal.cloudparameters.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Swagger2SpringBoot" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cloudParametersProject" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cellsignal.cloudparameters.Swagger2SpringBoot" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.com.cellsignal.cloudparameters.test.TestListKeys" />
-        <item itemvalue="Application.com.cellsignal.cloudparameters.TestListParameters" />
-        <item itemvalue="Application.TestGetParameter" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="a87d9ab9-c170-4d7f-bb88-0c32eb14c550" name="Changes" comment="" />
-      <created>1657676668342</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1657676668342</updated>
-      <workItem from="1657676670263" duration="11188000" />
-    </task>
-    <task id="LOCAL-00001" summary="Project Update">
-      <created>1657677796930</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1657677796930</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Update" />
-  </component>
-</project>
-||||||| empty tree
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="a87d9ab9-c170-4d7f-bb88-0c32eb14c550" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ParameterApiDelegateImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestGetParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestListKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestListParameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ListApiDelegateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ListApiDelegateImpl.java" afterDir="false" />
+    <list>
+      <item itemvalue="Application.Run App" />
+      <item itemvalue="Application.TestGetParameter" />
+      <item itemvalue="Application.TestListKeys" />
+      <item itemvalue="Application.TestListParameters" />
+      <item itemvalue="JUnit.TestDelegate.hello" />
     </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenRunner">
-    <option name="mavenProperties">
-      <map>
-        <entry key="swagger.api.key" value="710ab81d-7efe-467b-92fd-02b3f61b56f5" />
-      </map>
-    </option>
-  </component>
-  <component name="ProjectId" id="2BrukBODNTfM17Ijr8WZ0qYxPGd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
-  }
-}]]></component>
-  <component name="RunManager" selected="Application.com.cellsignal.cloudparameters.Swagger2SpringBoot">
-    <configuration name="TestGetParameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cellsignal.cloudparameters.test.TestGetParameter" />
-      <module name="cloudParametersProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cellsignal.cloudparameters.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestListParameters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cellsignal.cloudparameters.test.TestListParameters" />
-      <module name="cloudParametersProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cellsignal.cloudparameters.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.cellsignal.cloudparameters.Swagger2SpringBoot" type="Application" factoryName="Application" nameIsGenerated="true">
-      <envs>
-        <env name="AWS_PROFILE" value="default" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="com.cellsignal.cloudparameters.Swagger2SpringBoot" />
-      <module name="cloudParametersProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cellsignal.cloudparameters.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.cellsignal.cloudparameters.test.TestListKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cellsignal.cloudparameters.test.TestListKeys" />
-      <module name="cloudParametersProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cellsignal.cloudparameters.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Swagger2SpringBoot" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cloudParametersProject" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cellsignal.cloudparameters.Swagger2SpringBoot" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.cellsignal.cloudparameters.test.TestListKeys" />
-        <item itemvalue="Application.com.cellsignal.cloudparameters.TestListParameters" />
+        <item itemvalue="Application.TestListKeys" />
         <item itemvalue="Application.TestGetParameter" />
+        <item itemvalue="Application.TestListParameters" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="a87d9ab9-c170-4d7f-bb88-0c32eb14c550" name="Changes" comment="" />
-      <created>1657676668342</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1657676668342</updated>
-      <workItem from="1657676670263" duration="11188000" />
-    </task>
-    <task id="LOCAL-00001" summary="Project Update">
-      <created>1657677796930</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1657677796930</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Update" />
-  </component>
 </project>
->>>>>>> 781ec6f1e8c0a2b07ddd04a49ad6445b5ee56c27
-||||||| empty tree
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="a87d9ab9-c170-4d7f-bb88-0c32eb14c550" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ParameterApiDelegateImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestGetParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestListKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/test/TestListParameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ListApiDelegateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cellsignal/cloudparameters/delegate/ListApiDelegateImpl.java" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenRunner">
-    <option name="mavenProperties">
-      <map>
-        <entry key="swagger.api.key" value="710ab81d-7efe-467b-92fd-02b3f61b56f5" />
-      </map>
-    </option>
-  </component>
-  <component name="ProjectId" id="2BrukBODNTfM17Ijr8WZ0qYxPGd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
-  }
-}]]></component>
-  <component name="RunManager" selected="Application.com.cellsignal.cloudparameters.Swagger2SpringBoot">
-    <configuration name="TestGetParameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cellsignal.cloudparameters.test.TestGetParameter" />
-      <module name="cloudParametersProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cellsignal.cloudparameters.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestListParameters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cellsignal.cloudparameters.test.TestListParameters" />
-      <module name="cloudParametersProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cellsignal.cloudparameters.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.cellsignal.cloudparameters.Swagger2SpringBoot" type="Application" factoryName="Application" nameIsGenerated="true">
-      <envs>
-        <env name="AWS_PROFILE" value="default" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="com.cellsignal.cloudparameters.Swagger2SpringBoot" />
-      <module name="cloudParametersProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cellsignal.cloudparameters.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.cellsignal.cloudparameters.test.TestListKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cellsignal.cloudparameters.test.TestListKeys" />
-      <module name="cloudParametersProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cellsignal.cloudparameters.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Swagger2SpringBoot" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cloudParametersProject" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cellsignal.cloudparameters.Swagger2SpringBoot" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.com.cellsignal.cloudparameters.test.TestListKeys" />
-        <item itemvalue="Application.com.cellsignal.cloudparameters.TestListParameters" />
-        <item itemvalue="Application.TestGetParameter" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="a87d9ab9-c170-4d7f-bb88-0c32eb14c550" name="Changes" comment="" />
-      <created>1657676668342</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1657676668342</updated>
-      <workItem from="1657676670263" duration="11188000" />
-    </task>
-    <task id="LOCAL-00001" summary="Project Update">
-      <created>1657677796930</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1657677796930</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Update" />
-  </component>
-</project>
->>>>>>> 781ec6f1e8c0a2b07ddd04a49ad6445b5ee56c27

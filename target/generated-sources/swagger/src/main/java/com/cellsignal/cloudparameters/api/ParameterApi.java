@@ -5,7 +5,6 @@
  */
 package com.cellsignal.cloudparameters.api;
 
-import com.cellsignal.cloudparameters.configuration.model.InlineResponse200;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;
@@ -32,7 +31,7 @@ import javax.validation.constraints.*;
 import java.util.List;
 import java.util.Map;
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2022-07-12T21:50:12.372355-04:00[America/New_York]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2022-07-19T10:35:13.425641-04:00[America/New_York]")
 @Validated
 public interface ParameterApi {
 
@@ -40,7 +39,7 @@ public interface ParameterApi {
 
     @Operation(summary = "Returns the value of the parameter with a given key", description = "Returns the value for a given parameter in the parameter store. Due to the use of a path in the parameter key value, the get method should use a URL Escaped query parameter. Should call  AWS SSM get-parameter API ", tags={ "developers" })
     @ApiResponses(value = { 
-        @ApiResponse(responseCode = "200", description = "String Value of Parameter", content = @Content(mediaType = "application/json", schema = @Schema(implementation = InlineResponse200.class))),
+        @ApiResponse(responseCode = "200", description = "String Value of Parameter", content = @Content(mediaType = "application/json", schema = @Schema(implementation = String.class))),
         
         @ApiResponse(responseCode = "500", description = "internal error"),
         
@@ -48,7 +47,7 @@ public interface ParameterApi {
     @RequestMapping(value = "/parameter/getValue",
         produces = { "application/json" }, 
         method = RequestMethod.GET)
-    default ResponseEntity<InlineResponse200> getParameter(@NotNull @Parameter(in = ParameterIn.QUERY, description = "parameter key being queried" ,required=true,schema=@Schema()) @Valid @RequestParam(value = "key", required = true) String key) {
+    default ResponseEntity<String> getParameter(@NotNull @Parameter(in = ParameterIn.QUERY, description = "parameter key being queried" ,required=true,schema=@Schema()) @Valid @RequestParam(value = "key", required = true) String key) {
         return getDelegate().getParameter(key);
     }
 
