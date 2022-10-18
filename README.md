@@ -1,4 +1,4 @@
-<h1> CST-AWSCloudParameters Project </h1> 
+<h1> AWSCloudParameters Project </h1> 
 
 A web application that retrieves and filters parameters in Cell Signaling Technology's AWS account. 
 
