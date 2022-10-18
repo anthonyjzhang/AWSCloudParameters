@@ -8,7 +8,7 @@ This project was a part of my internship for Cell Singaling Technologies (CST). 
 
 <h2> Softwares and Technologies </h2> 
 
-This project is coded in Java, and uses Maven to build the code. Additionally, the program utilizes the Spring Framework (Spring Boot). These two technologies are essential to allowing the application to run. Maven converts the API specifications written in OpenAPI to source code. Spring Boot helps manage the dependencies in the application. In order to communicate with AWS, the program uses the AWS SDK for Java. 
+This project (programmed in Java) uses Maven to build the code. Additionally, the program utilizes the Spring Framework (Spring Boot). These two technologies are essential to allowing the application to run. Maven converts the API specifications written in OpenAPI to source code. Spring Boot helps manage the dependencies in the application. In order to communicate with AWS, the program uses the AWS SDK for Java. 
 
 
 
